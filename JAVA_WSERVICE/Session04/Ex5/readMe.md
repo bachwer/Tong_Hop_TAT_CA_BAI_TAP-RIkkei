@@ -263,12 +263,4 @@ PATCH /api/v1/bookings/{bookingId}/passenger
 ```
 
 
-vì chỉ cập nhật một phần dữ liệu (tên, số điện thoại).
-
-Tuy nhiên ở đây t chọn PUT vì:
-
-* nghiệp vụ yêu cầu cập nhật toàn bộ thông tin hành khách
-* request body gửi đầy đủ dữ liệu passenger
-* dễ hiểu với người mới học REST API
-
 
